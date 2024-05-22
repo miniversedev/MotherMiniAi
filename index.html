@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIПIVΣЯƧΣ_ΛIЯIDΣ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header starts here  -->
+
+    <div class="header">мιηινєяѕє_αιяι∂є</div>
+    <span class="sell">ᗯE ᔕEᒪᒪ ᔕᗩᖴTEY</span>
+
+    <!-- Header Ends  here  -->
+
+    <!-- starts  header button-->
+
+    <a href="second.html">
+      <span>𝗡𝗲𝘅𝘁𝗦𝘁𝗲𝗽</span>
+      <div class="liquid"></div>
+    </a>
+
+    <style>
+      a {
+        position: relative;
+        padding: 20px 50px;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 200px;
+        overflow: hidden;
+        border-radius: 40px;
+      }
+      a span {
+        position: relative;
+        color: #fff;
+        /* fot-size: 20rem; */
+        font-family: Arial;
+        letter-spacing: 8px;
+        z-index: 1;
+      }
+      a .liquid {
+        position: absolute;
+        top: -80px;
+        left: 0;
+        width: 200px;
+        height: 200px;
+        background: #4973ff;
+        box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+        transition: 0.5s;
+      }
+      a .liquid::after,
+      a .liquid::before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -75%);
+        background: #000;
+      }
+      a .liquid::before {
+        border-radius: 45%;
+        background: rgba(20, 20, 20, 1);
+        animation: animate 5s linear infinite;
+      }
+      a .liquid::after {
+        border-radius: 40%;
+        background: rgba(20, 20, 20, 0.5);
+        animation: animate 10s linear infinite;
+      }
+      a:hover .liquid {
+        top: -120px;
+      }
+      @keyframes animate {
+        0% {
+          transform: translate(-50%, -75%) rotate(0deg);
+        }
+        100% {
+          transform: translate(-50%, -75%) rotate(360deg);
+        }
+      }
+    </style>
+
+    <!-- ends header button-->
+
+    <div class="bicycle">
+      <div class="wheel front-wheel"></div>
+
+      <div class="front-fork">
+        <div class="tube"></div>
+      </div>
+      <div class="handlebars"></div>
+      <div class="crossbar"></div>
+      <div class="frame-1"></div>
+      <div class="frame-2"></div>
+      <div class="seat-tube">
+        <div class="seat"></div>
+      </div>
+
+      <div class="crank"></div>
+      <div class="chain"></div>
+      <div class="pedals"></div>
+
+      <div class="back-fork"></div>
+      <div class="wheel back-wheel"></div>
+    </div>
+  </body>
+</html>
